@@ -1,3 +1,5 @@
+FROM tomat:8.0-alpine
+
 FROM openjdk
 
 COPY ./target/demo-docker*.jar /usr/app/dockerDemo.jar
